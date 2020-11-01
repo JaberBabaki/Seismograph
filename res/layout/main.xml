@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CFC3B5"
+    android:orientation="vertical" >
+
+    <com.jaber.babaki.ChartView
+        android:id="@+id/chartView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="38dp"
+        android:text="Jaber"
+        android:textColor="#437DAD" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/TextView01"
+        android:layout_marginBottom="34dp"
+        android:text="Babaki"
+        android:textColor="#437DAD" android:layout_alignParentRight="true" android:layout_marginRight="35dip"/>
+
+</RelativeLayout>
