@@ -1,5 +1,5 @@
 # Seismograph
->spring 2015
+>spring 2014
 
 # Description
 With the application, you can be instantly informed about the occurrence of earthquakes.
